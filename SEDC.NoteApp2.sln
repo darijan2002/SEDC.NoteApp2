@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31702.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SEDC.NoteApp2.API", "SEDC.NoteApp2.API\SEDC.NoteApp2.API.csproj", "{D50E8A92-0CBD-40DA-AFA9-A17D1ACB1761}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SEDC.NoteApp2.Domain", "SEDC.NoteApp2.Domain\SEDC.NoteApp2.Domain.csproj", "{742B2D31-D786-4364-B124-4B696F45325F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SEDC.NoteApp2.DataAccess", "SEDC.NoteApp2.DataAccess\SEDC.NoteApp2.DataAccess.csproj", "{C46DA828-29ED-4B26-A597-84CAE767E42E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SEDC.NoteApp2.Services", "SEDC.NoteApp2.Services\SEDC.NoteApp2.Services.csproj", "{77F263EE-E155-4B57-8C4F-ABBD970182C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SEDC.NoteApp2.Mappers", "SEDC.NoteApp2.Mappers\SEDC.NoteApp2.Mappers.csproj", "{6F8CF739-5B2C-4DD1-98F8-EB1A7BCF99ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SEDC.NoteApp2.Shared", "SEDC.NoteApp2.Shared\SEDC.NoteApp2.Shared.csproj", "{F29B6096-8356-40DD-8BB5-79AE7A3C0BAA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SEDC.NoteApp2.Dto", "SEDC.NoteApp2.Dto\SEDC.NoteApp2.Dto.csproj", "{D8DFBD49-2C71-4C4D-B6ED-BC0F271D10BB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D50E8A92-0CBD-40DA-AFA9-A17D1ACB1761}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D50E8A92-0CBD-40DA-AFA9-A17D1ACB1761}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D50E8A92-0CBD-40DA-AFA9-A17D1ACB1761}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D50E8A92-0CBD-40DA-AFA9-A17D1ACB1761}.Release|Any CPU.Build.0 = Release|Any CPU
+		{742B2D31-D786-4364-B124-4B696F45325F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{742B2D31-D786-4364-B124-4B696F45325F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{742B2D31-D786-4364-B124-4B696F45325F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{742B2D31-D786-4364-B124-4B696F45325F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C46DA828-29ED-4B26-A597-84CAE767E42E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C46DA828-29ED-4B26-A597-84CAE767E42E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C46DA828-29ED-4B26-A597-84CAE767E42E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C46DA828-29ED-4B26-A597-84CAE767E42E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77F263EE-E155-4B57-8C4F-ABBD970182C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77F263EE-E155-4B57-8C4F-ABBD970182C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77F263EE-E155-4B57-8C4F-ABBD970182C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77F263EE-E155-4B57-8C4F-ABBD970182C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F8CF739-5B2C-4DD1-98F8-EB1A7BCF99ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F8CF739-5B2C-4DD1-98F8-EB1A7BCF99ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F8CF739-5B2C-4DD1-98F8-EB1A7BCF99ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F8CF739-5B2C-4DD1-98F8-EB1A7BCF99ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F29B6096-8356-40DD-8BB5-79AE7A3C0BAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F29B6096-8356-40DD-8BB5-79AE7A3C0BAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F29B6096-8356-40DD-8BB5-79AE7A3C0BAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F29B6096-8356-40DD-8BB5-79AE7A3C0BAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8DFBD49-2C71-4C4D-B6ED-BC0F271D10BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8DFBD49-2C71-4C4D-B6ED-BC0F271D10BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8DFBD49-2C71-4C4D-B6ED-BC0F271D10BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8DFBD49-2C71-4C4D-B6ED-BC0F271D10BB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4D5AB785-2B8F-43BE-99FA-468B6E23B00A}
+	EndGlobalSection
+EndGlobal

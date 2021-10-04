@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SEDC.NoteApp2.Domain\SEDC.NoteApp2.Domain.csproj" />
+    <ProjectReference Include="..\SEDC.NoteApp2.Dto\SEDC.NoteApp2.Dto.csproj" />
+  </ItemGroup>
+
+</Project>
